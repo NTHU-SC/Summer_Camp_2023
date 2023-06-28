@@ -5,5 +5,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [react(), tailwind()],
   site: 'https://scc.nthu.site',
-  base: '/hpc_summer_camp',
+  base: '/summer_camp_2023',
 });
