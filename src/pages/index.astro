@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "../components/Hero.jsx";
+import { GOGO } from "../components/GOGO.jsx";
 import { Navbar } from "../components/Navbar.jsx";
 import { Features1 } from "../components/Features1.jsx";
 import { Features2 } from "../components/Features2.jsx";
@@ -20,6 +21,7 @@ import "../styles/Diagonals.css";
 <Layout title="Tailcast">
   <Navbar client:load />
   <Hero client:load />
+  <GOGO client:load />
   <Features1 client:load />
   <Divider />
   <Features2 client:load />
