@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
-import feature4 from "../assets/images/feature4.jpg";
+import feature1 from "../assets/images/class.jpg";
+import feature2 from "../assets/images/server room.jpg";
+import feature3 from "../assets/images/taiwania2.jpg";
+import feature4 from "../assets/images/Training_camp.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
@@ -21,27 +21,36 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Embrace Innovation</span>
+              <span className="custom-block-subtitle">營隊將為你帶來以下的學習與成長機會</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-                Unlike any tool you used before
+                專注技術的夏令營
               </h2>
+              <p className="mb-5 text-customGrayText leading-loose">
+              透過真實超級電腦和實際應用的接觸，你將學習到平行計算程式設計和效能分析經驗。課程涵蓋了 10 堂課程和團隊黑客松競賽，旨在培養學員的 AI 能力和團隊合作精神。
+      
+
+              </p>
               <p className="mb-10 text-customGrayText leading-loose">
-                Discover a new level of data analysis with our innovative and
-                user-friendly platform. Transform your business needs with actionable
-                insights.
+              
+              營隊提供基礎班和進階班，根據學員的背景和能力安排彈性的學習方式。立即報名參加這個營隊，開啟你在超算領域的學習之旅，並體驗到豐富的學習和成長機會！
+
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Real-time data visualization</span>
+                  <span>專業課程：學習 AI 與操作超級電腦</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Advanced predictive analytics</span>
+                  <span>經驗分享：超算冠軍團隊分享座談會</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Seamless integration with APIs</span>
+                  <span>實地踏查：參訪國網中心與清大機房</span>
+                </li>
+                <li className="mb-4 flex">
+                  <CheckArrowIcon />
+                  <span>親自實踐：參與黑客松親自著手優化</span>
                 </li>
               </ul>
             </div>
