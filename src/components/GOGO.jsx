@@ -19,16 +19,17 @@ export const GOGO = () => {
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
             <div
               className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4"
-              onClick={() => setIsModalOpen(true)}
             >
-              Get Started
+              <a href="https://forms.gle/DWqtfWvNPMW4nYrTA" target="_blank">
+                點我報名
+              </a>
             </div>
-            <div
+            {/* <div
               className="w-48 sm:w-36 h-10 rounded-xl font-bold text-white border border-solid flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
               onClick={() => setIsModalOpen(true)}
             >
               Live demo
-            </div>
+            </div> */}
           </div>
         </motion.div>
 

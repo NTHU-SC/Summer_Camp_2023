@@ -30,7 +30,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                HPC Camp
+                HPCAI Summer Camp
               </div>
             </div>
           </a>
@@ -64,12 +64,12 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
+              href="https://forms.gle/DWqtfWvNPMW4nYrTA"
               target="_blank"
               aria-label="source code"
             >
-              <GithubIcon />
-              <span className="pt-px">Source code</span>
+
+              <span className="pt-px">點我報名</span>
             </a>
           </div>
         </motion.div>
