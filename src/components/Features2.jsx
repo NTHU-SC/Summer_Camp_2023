@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import feature5 from "../assets/images/feature5.jpg";
+import feature5 from "../assets/images/NCHC.jpeg";
 import feature6 from "../assets/images/feature6.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
@@ -35,28 +35,26 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-              Make Data-Driven Decisions
+              由清大及國網中心組建的教學團隊
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              我們專業的師資
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              該營隊由國家高速網路與計算中心與國立清華大學合辦，在營隊中你將獲得一流師資的指導，包括清華大學教授和世界叢集電腦競賽冠軍的成員。
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>國網中心與國立清華大學共同合辦</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
+                <span>平行程式名師周志遠教授親自授課</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>清大超算競賽常勝軍擔任課程助教</span>
               </li>
             </ul>
           </div>
