@@ -42,7 +42,9 @@ export const Pricing = () => {
                 Select the plan that suits your needs and benefit from our
                 analytics tools.
               </p>
-              <label className="mx-auto bg-customDarkBg3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
+              
+              {/* for swich between monthly and yearly. 
+                <label className="mx-auto bg-customDarkBg3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
                 <input
                   type="checkbox"
                   className="peer appearance-none"
@@ -60,7 +62,7 @@ export const Pricing = () => {
                   </div>
                   <div className={isMonthly && "text-gray-400"}>Yearly</div>
                 </div>
-              </label>
+              </label> */}
             </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">

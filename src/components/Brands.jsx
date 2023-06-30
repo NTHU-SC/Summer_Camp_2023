@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import SC_logo from "../assets/logos/SC_logo.png"
-import NCHC_logo from "../assets/logos/NCHC_logo.png"
+import NCHC_logo from "../assets/logos/NCHC_logo.jpg"
 
 export const Brands = () => (
   <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16">
@@ -25,24 +25,29 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
-              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
+              <div className="flex py-6 justify-center">
                 <img
                   src={NCHC_logo}
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
                 />
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
+              <div className="flex  justify-center">
                 <img
                   src={SC_logo}
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
                 />
               </div>
-              {/* <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <StripeLogo />
-              </div>
-
+              {/*
+              <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+                <img
+                  src={SC_logo}
+                  alt="f3"
+                  className="rounded-xl  custom-border-gray"
+                />
+              </div> */}
+              {/*
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
                 <SpotifyLogo />
               </div>
