@@ -48,14 +48,13 @@ export const Pricing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
               <span className="custom-block-subtitle">
-                Find Your Perfect Fit
+                選擇最適合自己的
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
-                Choose your best plan
+                報名方案
               </h2>
               <p className="mb-6 text-customGrayText">
-                Select the plan that suits your needs and benefit from our
-                analytics tools.
+                ＊＊＊＊＊＊＊＊＊
               </p>
 
               {/* for swich between monthly and yearly. 

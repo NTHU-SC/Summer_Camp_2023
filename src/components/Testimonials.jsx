@@ -41,7 +41,7 @@ export const Testimonials = () => (
         transition={{ duration: 0.4, delay: 0.3 }}
       >
         <div className="custom-block-subtitle text-center mb-6">
-          Testimonials
+          課程回饋
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
             高速運算及人工智慧課程廣受好評
