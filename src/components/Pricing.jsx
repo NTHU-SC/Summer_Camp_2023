@@ -51,7 +51,7 @@ export const Pricing = () => {
               招生對象：不限
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
-                報名方案
+                報名資訊
               </h2>
               <p className="mb-6 text-customGrayText">
               歡迎國高中生到碩博士生，只要具備基本的c語言程式能力都歡迎來挑戰、學習！
