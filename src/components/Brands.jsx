@@ -20,8 +20,8 @@ export const Brands = () => (
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="flex flex-col">
               <h2 className="mb-2  text-4xl sm:text-5xl 2xl:text-6xl py-3 font-bold tracking-normal text-white">
-                高速計算<br />
-                人工智慧<br />
+                HPC x AI <br />
+                高速計算人工智慧<br />
                 夏令營
               </h2>
               <h2 className=" text-4xl  sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-customSecondary">
