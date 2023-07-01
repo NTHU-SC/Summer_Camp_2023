@@ -28,13 +28,13 @@ const footerData = [
 ];
 
 const Email = () => {
-  const recipient = "example@lsalab.nthu.edu.tw";
+  const recipient = "hpcai@lsalab.nthu.edu.tw";
   const subject = "[HPCxAI Summer Camp] Subject";
   const message = "Hello,";
 
   return (
     <a href={`mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`}>
-      example@lsalab.nthu.edu.tw
+      hpcai@lsalab.nthu.edu.tw
     </a>
   );
 };
