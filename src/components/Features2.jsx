@@ -41,7 +41,7 @@ export const Features2 = () => (
               我們專業的師資
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              該營隊由國家高速網路與計算中心與國立清華大學合辦，在營隊中你將獲得一流師資的指導，包括清華大學教授和世界叢集電腦競賽冠軍的成員。
+              該營隊由國家高速網路與計算中心與國立清華大學合辦，在營隊中你你將獲得一流師資的指導，包括清華大學教授、世界叢集電腦競賽冠軍成員及業界專家。
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
@@ -50,11 +50,15 @@ export const Features2 = () => (
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>平行程式名師周志遠教授親自授課</span>
+                <span>清大資工名師周志遠教授親自授課</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
                 <span>清大超算競賽常勝軍擔任課程助教</span>
+              </li>
+              <li className="mb-4 flex">
+                <CheckArrowIcon />
+                <span>邀請 AI 業界專家到場演講與交流</span>
               </li>
             </ul>
           </div>

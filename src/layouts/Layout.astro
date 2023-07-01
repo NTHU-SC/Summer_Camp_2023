@@ -18,7 +18,11 @@ const { title } = Astro.props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="https://scc.nthu.site/Summer_Camp_2023/ICON.PNG" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://scc.nthu.site/Summer_Camp_2023/ICON.PNG"
+    />
     <meta name="generator" content={Astro.generator} />
     <meta
       name="description"
@@ -26,22 +30,42 @@ const { title } = Astro.props;
     />
     <title>{title}</title>
     <!-- HTML Meta Tags -->
-    <meta name="description" content="「高速計算人工智慧夏令營」透過真實超級電腦和實際應用的接觸，你將學習到平行計算程式設計和效能分析經驗。課程涵蓋了 10 堂課程和黑客松競賽，旨在培養學員的高速運算知識及 AI 能力！">
+
+    <meta
+      name="description"
+      content="透過真實操作超級電腦和實際應用，你將學習到平行程式設計和效能分析經驗。課程涵蓋超過 20 小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與將高速運算知識應用在 AI 的能力！"
+    />
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://scc.nthu.site/Summer_Camp_2023/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="2023 HPC x AI summer camp ">
-    <meta property="og:description" content="「高速計算人工智慧夏令營」透過真實超級電腦和實際應用的接觸，你將學習到平行計算程式設計和效能分析經驗。課程涵蓋了 10 堂課程和黑客松競賽，旨在培養學員的高速運算知識及 AI 能力！">
-    <meta property="og:image" content="https://scc.nthu.site/Summer_Camp_2023/og_image.jpg">
+    <meta property="og:url" content="https://scc.nthu.site/Summer_Camp_2023/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="2023 HPC x AI Summer Camp " />
+    <meta
+      property="og:description"
+      content="透過真實操作超級電腦和實際應用，你將學習到平行程式設計和效能分析經驗。課程涵蓋超過 20 小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與將高速運算知識應用在 AI 的能力！"
+    />
+    <meta
+      property="og:image"
+      content="https://scc.nthu.site/Summer_Camp_2023/og_image.jpg"
+    />
+    <meta property="fb:app_id" content="1039226590793242" />
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="scc.nthu.site">
-    <meta property="twitter:url" content="https://scc.nthu.site/Summer_Camp_2023/">
-    <meta name="twitter:title" content="2023 HPC x AI summer camp ">
-    <meta name="twitter:description" content="「高速計算人工智慧夏令營」透過真實超級電腦和實際應用的接觸，你將學習到平行計算程式設計和效能分析經驗。課程涵蓋了 10 堂課程和黑客松競賽，旨在培養學員的高速運算知識及 AI 能力！">
-    <meta name="twitter:image" content="https://scc.nthu.site/Summer_Camp_2023/og_image.jpg">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="scc.nthu.site" />
+    <meta
+      property="twitter:url"
+      content="https://scc.nthu.site/Summer_Camp_2023/"
+    />
+    <meta name="twitter:title" content="2023 HPC x AI Summer Camp " />
+    <meta
+      name="twitter:description"
+      content="透過真實操作超級電腦和實際應用，你將學習到平行程式設計和效能分析經驗。課程涵蓋超過 20 小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與將高速運算知識應用在 AI 的能力！"
+    />
+    <meta
+      name="twitter:image"
+      content="https://scc.nthu.site/Summer_Camp_2023/og_image.jpg"
+    />
   </head>
   <body>
     <slot />
@@ -55,7 +79,3 @@ const { title } = Astro.props;
     </style>
   </body>
 </html>
-
-
-
-        
