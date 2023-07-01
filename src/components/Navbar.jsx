@@ -5,10 +5,11 @@ import { HPCAISummerCampLogo } from "../assets/logos/HPCAISummerCampLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
-  { label: "Home", href: "#home", ariaLabel: "Home" },
-  { label: "Features", href: "#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
+  { label: "", href: "#home", ariaLabel: "Home" },
+  { label: "特色師資", href: "#features", ariaLabel: "Features" },
+  { label: "課程活動", href: "#course", ariaLabel: "Course" },
+  { label: "報名資訊", href: "#pricing", ariaLabel: "Pricing" },
+  { label: "合辦單位", href: "#brands", ariaLabel: "Brands" },
   { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
 ];
 
