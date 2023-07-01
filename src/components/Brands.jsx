@@ -5,7 +5,8 @@ import NCHC_logo from "../assets/logos/NCHC_logo.jpg"
 import NTHU_logo from "../assets/logos/NTHU_logo.png"
 
 export const Brands = () => (
-  <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16">
+  <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16"
+  id="brands">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
