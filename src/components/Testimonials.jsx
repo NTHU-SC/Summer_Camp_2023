@@ -54,7 +54,7 @@ const testimonialsDataLowerRow = [
     customerName: "小P",
     customerTitle: "努力長大中，想要跑得超級快！",
     content:
-      "來參加HPCAI夏令營吧！這裡的夥伴都超友善的，大家都願意互相幫助～遇到問題別怕，勇敢發問，一起成長！😊🌈",
+      "來參加HPCAI夏令營吧！這裡的夥伴都超友善的，大家都願意互相幫助～不管遇到什麼問題，都可以勇敢發問，一起成長！😊🌈",
     image: 小Ｐ,
   },
 
