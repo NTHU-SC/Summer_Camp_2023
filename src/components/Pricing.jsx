@@ -5,11 +5,22 @@ import { InvitationModal } from "./InvitationModal";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 const pricingData = [
-  "Seamless integration",
-  "Real-time data visualization",
-  "Advanced predictive analytics",
-  "Collaborative environment",
-  "Responsive customer support",
+  "精彩課程",
+  "助教指導",
+  "早午餐",
+  "旅平險",
+  "紀念品",
+  "證書",
+  "* 住宿",
+];
+
+const pricingData_no_hotel = [
+  "精彩課程",
+  "助教指導",
+  "早午餐",
+  "旅平險",
+  "紀念品",
+  "證書",
 ];
 
 export const Pricing = () => {
@@ -18,6 +29,10 @@ export const Pricing = () => {
 
   const handleChange = () => {
     setIsMonthly(!isMonthly);
+  };
+
+  const handleButtonClick = () => {
+    window.open('https://forms.gle/DWqtfWvNPMW4nYrTA/', '_blank');
   };
 
   return (
@@ -42,7 +57,9 @@ export const Pricing = () => {
                 Select the plan that suits your needs and benefit from our
                 analytics tools.
               </p>
-              <label className="mx-auto bg-customDarkBg3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
+
+              {/* for swich between monthly and yearly. 
+                <label className="mx-auto bg-customDarkBg3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
                 <input
                   type="checkbox"
                   className="peer appearance-none"
@@ -60,25 +77,22 @@ export const Pricing = () => {
                   </div>
                   <div className={isMonthly && "text-gray-400"}>Yearly</div>
                 </div>
-              </label>
+              </label> */}
             </div>
-            <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20">
+            <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20 justify-center">
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                    Beginner
+                  安心追夢
                   </h4>
                   <div className="flex justify-start items-end">
-                    <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
+                    <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
                       $0
-                    </div>
-                    <div className="text-gray-500">
-                      {isMonthly ? "/ month" : "/ year"}
                     </div>
                   </div>
 
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    The perfect way to get started and get used to our tools.
+                  擁有中低收、低收或清寒證明者由國網中心補助參與
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
                     {pricingData.map((text, index) => (
@@ -88,29 +102,26 @@ export const Pricing = () => {
                       </li>
                     ))}
                   </ul>
-                  <div
+                  {/* <div
                     className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                     onClick={() => setIsModalOpen(true)}
                   >
                     Get Started
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="px-8 py-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 2xl:mb-4 text-2xl font-bold font-heading text-white text-left">
-                    Standard
+                    提供住宿
                   </h4>
                   <div className="flex justify-start items-end">
-                    <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$19" : "$180"}
-                    </div>
-                    <div className="text-gray-500">
-                      {isMonthly ? "/ month" : "/ year"}
+                    <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
+                      {isMonthly ? "$3000" : "$180"}
                     </div>
                   </div>
                   <p className="mt-8 mb-8 2xl:mb-12 text-gray-500 leading-loose text-left">
-                    Unlock more features and elevate your data analysis.
+                    營隊提供四晚清大學生宿舍，養精蓄銳後為課程做好準備
                   </p>
                   <ul className="mb-14 text-white">
                     {pricingData.map((text, index) => (
@@ -120,45 +131,42 @@ export const Pricing = () => {
                       </li>
                     ))}
                   </ul>
-                  <div
+                  {/* <div
                     className="inline-block text-center py-2 px-4 w-full custom-button-colored leading-loose transition duration-200 mt-20"
                     onClick={() => setIsModalOpen(true)}
                   >
                     Get Started
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                    Premium
+                    不含住宿
                   </h4>
                   <div className="flex justify-start items-end">
-                    <div className="text-4xl sm:text-5xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$36" : "$390"}
-                    </div>
-                    <div className="text-gray-500">
-                      {isMonthly ? "/ month" : "/ year"}
+                    <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
+                      {isMonthly ? "$2000" : "$390"}
                     </div>
                   </div>
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    Experience the full power of our  analytic platform
+                    營隊不提供住宿，學生需自行安排住宿
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
-                    {pricingData.map((text, index) => (
+                    {pricingData_no_hotel.map((text, index) => (
                       <li className="mb-4 flex" key={`${text}-${index}`}>
                         <CheckArrowIcon />
                         <span>{text}</span>
                       </li>
                     ))}
                   </ul>
-                  <div
-                    className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
-                    onClick={() => setIsModalOpen(true)}
-                  >
-                    Get Started
-                  </div>
                 </div>
+              </div>
+              <div
+                className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
+                onClick={() => handleButtonClick()}
+              >
+                立刻報名！
               </div>
             </div>
           </div>
