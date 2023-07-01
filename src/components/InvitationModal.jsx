@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { HPCAISummerCampLogo } from "../assets/logos/HPCAISummerCampLogo";
 
 export const InvitationModal = ({ setIsOpen }) => (
   <AnimatePresence>
@@ -47,7 +47,7 @@ export const InvitationModal = ({ setIsOpen }) => (
             <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
               <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">
                 <div className="text-white mr-2 text-8xl">
-                  <TailcastLogo />
+                  <HPCAISummerCampLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-3xl">
                   HPC
