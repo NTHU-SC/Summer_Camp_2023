@@ -59,7 +59,7 @@ export const Testimonials = () => (
               <div className="custom-content-text-white">
                 "{testimonial.content}"
               </div>
-              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
+              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4" style={{alignItems: 'center'}}>
                 <img src={testimonial.image} alt="" style={{width: '50px', height: '50px'}} />
                 <div className="flex flex-col ml-4">
                   <div className="custom-content-text-white font-medium">
@@ -86,7 +86,7 @@ export const Testimonials = () => (
               <div className="custom-content-text-white">
                 "{testimonial.content}"
               </div>
-              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
+              <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4" style={{alignItems: 'center'}}>
                 <img src={testimonial.image} alt="" style={{width: '50px', height: '50px'}} />
                 <div className="flex flex-col ml-4">
                   <div className="custom-content-text-white font-medium">
