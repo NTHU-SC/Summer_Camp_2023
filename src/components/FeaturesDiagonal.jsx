@@ -42,7 +42,7 @@ export const FeaturesDiagonal = () => {
               專業知識密集課程
             </h2>
             <p className="mb-6 text-customGrayText">
-              授課地點：清華大學資電館
+              授課地點：清華大學資電館 電腦教室
             </p>
             {/* <p className="mb-16 text-customGrayText leading-loose">
               Our platform enables you to launch your data-driven projects with
