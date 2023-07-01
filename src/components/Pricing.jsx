@@ -47,14 +47,17 @@ export const Pricing = () => {
         >
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
-              <span className="custom-block-subtitle">
-              招生對象：不限
+              <span className="custom-block-subtitle" >
+              歡迎具備基本的 C/C++ 語言程式能力者來挑戰、學習！
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
-                報名方案
+                報名資訊
               </h2>
-              <p className="mb-6 text-customGrayText">
-              歡迎國高中生到碩博士生，只要具備基本的c語言程式能力都歡迎來挑戰、學習！
+              <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
+              招生對象：不限
+              <br />
+              授課地點：清華大學資電館
+              
               </p>
 
               {/* for swich between monthly and yearly. 
