@@ -10,7 +10,7 @@ const navbarLinks = [
   { label: "課程活動", href: "#course", ariaLabel: "Course" },
   { label: "報名資訊", href: "#pricing", ariaLabel: "Pricing" },
   { label: "合辦單位", href: "#brands", ariaLabel: "Brands" },
-  { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
+  { label: "常見問題", href: "#FAQ", ariaLabel: "FAQ" },
 ];
 
 export const Navbar = () => {
@@ -31,7 +31,7 @@ export const Navbar = () => {
                 <HPCAISummerCampLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                HPCAI Summer Camp
+                HPC x AI Summer Camp
               </div>
             </div>
           </a>
