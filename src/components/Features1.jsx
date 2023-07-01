@@ -32,7 +32,7 @@ export const Features1 = () => {
               </p>
               <p className="mb-10 text-customGrayText leading-loose">
               
-              營隊提供基礎班和進階班，根據學員的背景和能力安排彈性的學習方式。立即報名參加這個營隊，開啟你在超算領域的學習之旅，並體驗到豐富的學習和成長機會！
+              營隊根據學員的背景和能力安排彈性的學習方式。立即報名參加這個營隊，開啟你在超算領域的學習之旅，並體驗到豐富的學習和成長機會！
 
               </p>
               <ul className="mb-6 text-white">
