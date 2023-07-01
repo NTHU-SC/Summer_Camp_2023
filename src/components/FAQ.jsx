@@ -35,7 +35,7 @@ const FAQData = [
   {
     question: "我還有其他問題！",
     answer:
-      "請聯絡 @lsalab.nthu.edu.tw",
+      "請聯絡 hpcai@lsalab.cs.nthu.edu.tw",
   },
   
 ];

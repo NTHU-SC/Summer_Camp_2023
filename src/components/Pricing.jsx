@@ -48,13 +48,13 @@ export const Pricing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
               <span className="custom-block-subtitle">
-                選擇最適合自己的
+              招生對象：不限
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
                 報名方案
               </h2>
               <p className="mb-6 text-customGrayText">
-                ＊＊＊＊＊＊＊＊＊
+              歡迎國高中生到碩博士生，只要具備基本的c語言程式能力都歡迎來挑戰、學習！
               </p>
 
               {/* for swich between monthly and yearly. 
