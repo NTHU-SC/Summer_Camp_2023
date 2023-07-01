@@ -31,10 +31,10 @@ const testimonialsDataUpperRow = [
 
 const testimonialsDataLowerRow = [
   {
-    customerName: "黃恩明",
-    customerTitle: "資工系特選學生、超算比賽隊員",
+    customerName: "郭品毅",
+    customerTitle: "SCC 世界冠軍隊員",
     content:
-      "超算不僅考驗自己的學理知識，也需要有相當的實作技能，才能勝任比賽任務",
+      "資訊工程已經不再只是寫程式，需要對硬體深入了解，以取得更優異的性能，並結合跨領域的應用，才能將科技用於改善我們的生活",
     image: testimonial1,
   },
   {
