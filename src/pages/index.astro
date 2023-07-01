@@ -13,6 +13,7 @@ import { Brands } from "../components/Brands.jsx";
 import { Divider } from "../components/Divider";
 import { Footer } from "../components/Footer.jsx";
 import { ScrollUpButton } from "../components/ScrollUpButton";
+import { CoC } from "../components/CoC"
 import "../styles/Theme.css";
 import "../styles/Diagonals.css";
 
@@ -23,14 +24,15 @@ import "../styles/Diagonals.css";
   <Hero client:load />
   <GOGO client:load />
   <Features1 client:load />
-  <Divider />
+  <Divider client:load/>
   <Features2 client:load />
   <Testimonials client:load />
   <FeaturesDiagonal client:load />
   <Pricing client:load />
   <Brands client:load />
   <FAQ client:load />
-  <Footer />
+  <CoC client:load />
+  <Footer client:load />
   <ScrollUpButton client:load />
 </Layout>
 

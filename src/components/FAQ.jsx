@@ -3,25 +3,41 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "我沒有資訊工程的背景，這樣還能參加嗎？",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+      "沒問題的！超級電腦非常需要跨領域人才，才能結合不同學科知識，解決跨領域的難題。在課程中，我們也會依照能力分組，並有助教能夠協助大家解決疑問。",
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question: "我要怎麼知道有沒有成功報名呢？",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
+      "本次夏令營預計招收學員 80 名，我們會針對報名資料做簡易審查，非先報先贏。我們將在您報名後兩週內(或最晚7/24前)寄出通知信告知是否報名成功。若報名成功，再請於收到通知信的一週內，按信中指示繳交報名費完成報名程序。",
   },
   {
-    question: "What's your refund policy?",
+    question: "繳費成功後會有收據嗎？",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
+      "我們會由承辦公司（星希科技有限公司）開立發票。並在營期間交予學員。",
   },
   {
-    question: "How to get support for the product?",
+    question: "請問臨時無法參與能夠退費嗎？",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+      "活動 10 天（含）前取消：酌扣相關手續費用500元。活動2天（含）前取消：酌扣相關手續費用 1000 元。活動前一天及當天取消：不予退費。活動前一天及當天取消原因，如因個人身體狀況無法參加，則須檢附醫生證明申請退費，酌扣相關手續費用 500 元。",
   },
+  {
+    question: "住宿的房型是什麼樣的呢？",
+    answer:
+      "清大學生宿舍四人房，實際房型依照學校分配決定。",
+  },
+  {
+    question: "可以跟認識的同學一起住嗎？",
+    answer:
+      "請在繳費後的回填表單中，於備註區塊填寫一起住的成員名單。上限四人，不可男女混住。",
+  },
+  {
+    question: "我還有其他問題！",
+    answer:
+      "請聯絡 @lsalab.nthu.edu.tw",
+  },
+  
 ];
 
 export const FAQ = () => (
@@ -36,10 +52,10 @@ export const FAQ = () => (
       <div className="relative z-10 container px-2 sm:px-8 lg:px-4 mx-auto w-11/12 sm:w-full">
         <div className="md:max-w-4xl mx-auto">
           <p className="mb-7 custom-block-subtitle text-center">
-            Have any questions?
+            解答專區
           </p>
           <h2 className="mb-16 custom-block-big-title text-center">
-            Frequently Asked Questions
+            常見問題
           </h2>
           <div className="mb-11 flex flex-wrap -m-1">
             {FAQData.map((item, index) => (

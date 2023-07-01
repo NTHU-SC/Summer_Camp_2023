@@ -5,11 +5,12 @@ import { HPCAISummerCampLogo } from "../assets/logos/HPCAISummerCampLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
-  { label: "Home", href: "#home", ariaLabel: "Home" },
-  { label: "Features", href: "#features", ariaLabel: "Features" },
-  { label: "Pricing", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "Feedback", href: "#feedback", ariaLabel: "Feedback" },
-  { label: "FAQ", href: "#FAQ", ariaLabel: "FAQ" },
+  { label: "", href: "#home", ariaLabel: "Home" },
+  { label: "特色師資", href: "#features", ariaLabel: "Features" },
+  { label: "課程活動", href: "#course", ariaLabel: "Course" },
+  { label: "報名資訊", href: "#pricing", ariaLabel: "Pricing" },
+  { label: "合辦單位", href: "#brands", ariaLabel: "Brands" },
+  { label: "常見問題", href: "#FAQ", ariaLabel: "FAQ" },
 ];
 
 export const Navbar = () => {
@@ -30,7 +31,7 @@ export const Navbar = () => {
                 <HPCAISummerCampLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                HPCAI Summer Camp
+                HPC x AI Summer Camp
               </div>
             </div>
           </a>
