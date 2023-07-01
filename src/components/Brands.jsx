@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import SC_logo from "../assets/logos/SC_logo.png"
 import NCHC_logo from "../assets/logos/NCHC_logo.jpg"
+import NTHU_logo from "../assets/logos/NTHU_logo.png"
 
 export const Brands = () => (
   <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16">
@@ -15,8 +16,10 @@ export const Brands = () => (
         <div className="flex lg:flex-row flex-col items-center -mx-4 justify-center lg:text-left text-center">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="flex flex-col">
-              <h2 className="mb-2  text-4xl sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-white">
-                超算夏令營
+              <h2 className="mb-2  text-4xl sm:text-5xl 2xl:text-6xl py-3 font-bold tracking-normal text-white">
+                高速計算<br />
+                人工智慧<br />
+                夏令營
               </h2>
               <h2 className=" text-4xl  sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-customSecondary">
                 合辦單位
@@ -25,16 +28,23 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
-              <div className="flex py-6 justify-center">
+              <div className="flex py-3 justify-center">
                 <img
                   src={NCHC_logo}
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
                 />
               </div>
-              <div className="flex  justify-center">
+              <div className="flex py-3 justify-center">
                 <img
                   src={SC_logo}
+                  alt="f3"
+                  className="rounded-xl  custom-border-gray"
+                />
+              </div>
+              <div className="flex py-3 justify-center">
+                <img
+                  src={NTHU_logo}
                   alt="f3"
                   className="rounded-xl  custom-border-gray"
                 />
