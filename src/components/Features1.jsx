@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/Jerry.jpg";
-import feature2 from "../assets/images/class.jpg";
+import feature1 from "../assets/images/class.jpg";
+import feature2 from "../assets/images/Jerry.jpg";
 import feature3 from "../assets/images/taiwania2.jpg";
 import feature4 from "../assets/images/Training_camp.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
