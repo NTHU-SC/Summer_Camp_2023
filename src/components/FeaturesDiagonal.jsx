@@ -105,10 +105,10 @@ const MyTable = () => {
         <tr>
           <td>9:00~9:30</td>
           <td colspan="2">報到</td>
-          <td rowspan="3">登峰造極<br />(超級電腦簡介與實操)</td>
-          <td rowspan="3">拜師學藝<br />(學生叢集競賽座談會)</td>
-          <td rowspan="4">學以致用<br />(高效能計算在科學計算與人工智慧的應用簡介與實操)</td>
-          <td rowspan="4">增廣見聞<br />(國網中心參訪)</td>
+          <td rowSpan="3">登峰造極<br />(超級電腦簡介與實操)</td>
+          <td rowSpan="3">拜師學藝<br />(學生叢集競賽座談會)</td>
+          <td rowSpan="4">學以致用<br />(高效能計算在科學計算與人工智慧的應用簡介與實操)</td>
+          <td rowSpan="4">增廣見聞<br />(國網中心參訪)</td>
         </tr>
         <tr>
           <td>9:30~10:00</td>
@@ -116,7 +116,7 @@ const MyTable = () => {
         </tr>
         <tr>
           <td>10:00~10:30</td>
-          <td colspan="2" rowspan="2">進入平行世界<br />(平行計算簡介 I)</td>
+          <td colspan="2" rowSpan="2">進入平行世界<br />(平行計算簡介 I)</td>
         </tr>
         <tr>
           <td>10:30~12:00</td>
@@ -135,19 +135,19 @@ const MyTable = () => {
           <td>13:30~15:00</td>
           <td>追本溯源<br />(Linux教學)</td>
           <td>探索未來<br />(平行計算簡介 II)</td>
-          <td rowspan="3">多重宇宙<br />(GPU平行程式教學)</td>
-          <td rowspan="3">駭客任務:首部曲<br />(程式競賽)</td>
-          <td rowspan="3">駭客任務:最終戰役<br />(應用競賽)</td>
+          <td rowSpan="3">多重宇宙<br />(GPU平行程式教學)</td>
+          <td rowSpan="3">駭客任務:首部曲<br />(程式競賽)</td>
+          <td rowSpan="3">駭客任務:最終戰役<br />(應用競賽)</td>
           <td>開花結果<br />(競賽成果發表)</td>
         </tr>
         <tr>
           <td>15:00~16:00</td>
-          <td colspan="2" rowspan="2">一個頭兩個大<br />(MPI平行程式教學)</td>
+          <td colspan="2" rowSpan="2">一個頭兩個大<br />(MPI平行程式教學)</td>
           <td>滿載而歸<br />(頒獎、閉幕)</td>
         </tr>
         <tr>
           <td>15:00~17:30</td>
-          <td rowspan="3"> <br /><br /></td>
+          <td rowSpan="3"> <br /><br /></td>
         </tr>
         <tr>
           <td>17:30~19:00</td>
