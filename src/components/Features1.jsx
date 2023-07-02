@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import feature1 from "../assets/images/class.jpg";
-import feature2 from "../assets/images/server room.jpg";
+import feature1 from "../assets/images/Jerry.jpg";
+import feature2 from "../assets/images/class.jpg";
 import feature3 from "../assets/images/taiwania2.jpg";
 import feature4 from "../assets/images/Training_camp.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
@@ -26,7 +26,7 @@ export const Features1 = () => {
                 專注技術的夏令營
               </h2>
               <p className="mb-5 text-customGrayText leading-loose">
-              聚集國內最優秀的產學研資源，透過真實操作超級電腦和接觸實際應用，你將學習到平行程式設計和獲得效能分析經驗。課程涵蓋了 10 堂課程和黑客松競賽，旨在培養學員的高速運算和知識 AI 能力！
+              聚集國內最優秀的產學研資源，透過真實操作超級電腦和接觸實際應用，你將學習到平行程式設計和獲得效能分析經驗。課程涵蓋超過 20小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與運用高速運算知識在AI 的應用能力！
       
 
               </p>
