@@ -10,7 +10,7 @@ const pricingData = [
   "早午餐",
   "旅平險",
   "紀念品",
-  "證書",
+  "參加證書（國網中心核發）",
   "* 住宿",
 ];
 
@@ -20,7 +20,7 @@ const pricingData_no_hotel = [
   "早午餐",
   "旅平險",
   "紀念品",
-  "證書",
+  "參加證書（國網中心核發）",
 ];
 
 export const Pricing = () => {
@@ -54,7 +54,7 @@ export const Pricing = () => {
                 報名資訊
               </h2>
               <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
-              招生對象：不限
+              招生對象：不限，但名額有限，學生身份優先錄取
               <br />
               授課地點：清華大學資電館
               
@@ -115,7 +115,7 @@ export const Pricing = () => {
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="px-8 py-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 2xl:mb-4 text-2xl font-bold font-heading text-white text-left">
-                    提供住宿
+                    含住宿
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
@@ -152,7 +152,7 @@ export const Pricing = () => {
                     </div>
                   </div>
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    營隊不提供住宿，學生需自行安排住宿
+                    營隊不含住宿，學生需自行安排住宿
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
                     {pricingData_no_hotel.map((text, index) => (
