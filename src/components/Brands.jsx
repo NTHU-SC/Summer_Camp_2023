@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import SC_logo from "../assets/logos/SC_logo.png"
-import NCHC_logo from "../assets/logos/NCHC_logo.jpg"
+import NCHC_logo from "../assets/logos/NCHC_logo.png"
 import NTHU_logo from "../assets/logos/NTHU_logo.png"
 import NVIDIA_logo from "../assets/logos/NVIDIA_logo.png"
 
@@ -15,7 +15,7 @@ export const Brands = () => (
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >
-      <div className="container px-4 mx-auto 2xl:w-[1200px] xl:w-[1100px] lg:w-[1000px] md:w-4/5">
+      <div className="container px-4 mx-auto 2xl:w-[1200px] xl:w-[1100px] lg:w-[1000px] md:w-4/5 pt-20">
         <div className="flex lg:flex-row flex-col items-center -mx-4 justify-center lg:text-left text-center">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="flex flex-col">
