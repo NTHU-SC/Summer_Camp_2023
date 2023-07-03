@@ -74,7 +74,7 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="flex py-3 justify-center">
-                <a href="https://www.nchc.org.tw/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.nvidia.com/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={NVIDIA_logo}
                     alt="NVIDIA_logo"
