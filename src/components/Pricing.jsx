@@ -7,7 +7,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 const pricingData = [
   "精彩課程",
   "助教指導",
-  "早午餐",
+  "三餐",
   "旅平險",
   "紀念品",
   "參加證書（國網中心核發）",
@@ -17,7 +17,7 @@ const pricingData = [
 const pricingData_no_hotel = [
   "精彩課程",
   "助教指導",
-  "早午餐",
+  "三餐",
   "旅平險",
   "紀念品",
   "參加證書（國網中心核發）",
@@ -57,7 +57,8 @@ export const Pricing = () => {
               招生對象：不限，但名額有限，學生身份優先錄取
               <br />
               授課地點：清華大學資電館
-              
+              <br />
+              收費用途：用於住宿及飲食
               </p>
 
               {/* for swich between monthly and yearly. 
