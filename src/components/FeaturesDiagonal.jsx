@@ -120,7 +120,7 @@ const MyTable = () => {
         </tr>
         <tr>
           <td>10:30~12:00</td>
-          <td>神秘嘉賓</td>
+          <td>NVIDIA 神秘嘉賓</td>
           <td>超級比一比 (效能競賽)</td>
         </tr>
         <tr>

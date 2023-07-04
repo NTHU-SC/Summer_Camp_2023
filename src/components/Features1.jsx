@@ -48,11 +48,6 @@ export const Features1 = () => {
                   <CheckArrowIcon />
                   <span>親自實踐：參與黑客松親自著手優化</span>
                 </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>掌握趨勢：邀請業界專家演講與交流</span>
-                </li>
-
               </ul>
             </div>
           </div>
