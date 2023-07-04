@@ -20,7 +20,7 @@ export const CoC = () => (
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
               行為準則
             </h2>
-            <p className="mb-12 text-customGrayText leading-loose">
+            <div className="mb-12 text-customGrayText leading-loose">
               HPC x AI Summer Camp 歡迎不同身分、來自不同背景的參與者，也非常鼓勵女性、性少數與多元背景的參與者。為了讓大家都能愉快的參加 HPC x AI，我們要求所有參與者閱讀以下行為準則（Code of Conduct），共同創造一個友善的環境。
               
               
@@ -68,7 +68,7 @@ export const CoC = () => (
                   <span>⛌ 違法行為：從事違反法律的行為。</span>
                 </li>
               </ul>
-            </p>
+            </div>
             <ul className="mb-6 text-white">
 
             </ul>
