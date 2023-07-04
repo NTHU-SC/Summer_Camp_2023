@@ -169,7 +169,7 @@ export const Pricing = () => {
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}
               >
-                立刻報名！
+                7/23 截止，立刻報名！
               </div>
             </div>
           </div>
