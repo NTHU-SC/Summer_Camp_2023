@@ -58,7 +58,7 @@ export const Features2 = () => (
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>邀請 AI 業界專家到場演講與交流</span>
+                <span>邀請 NVIDIA 專家到場演講與交流</span>
               </li>
             </ul>
           </div>

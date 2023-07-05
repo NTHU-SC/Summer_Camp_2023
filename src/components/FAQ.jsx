@@ -25,7 +25,7 @@ const FAQData = [
   {
     question: "住宿的房型是什麼樣的呢？",
     answer:
-      "清大學生宿舍四人房，實際房型依照學校分配決定。",
+      "清大學生宿舍四人房，實際房型依照學校分配決定。由於學校僅提供床位，因此請記得攜帶睡袋或床墊喔！",
   },
   {
     question: "可以跟認識的同學一起住嗎？",
@@ -59,11 +59,10 @@ export const FAQ = () => (
           </h2>
           <div className="mb-11 flex flex-wrap -m-1">
             {FAQData.map((item, index) => (
-              <div className="w-full p-1">
+              <div className="w-full p-1" key={`${item.question}-${item.answer}`}>
                 <FAQBox
                   title={item.question}
                   content={item.answer}
-                  key={`${item.question}-${item.answer}`}
                   defaultOpen={index === 0}
                 />
               </div>

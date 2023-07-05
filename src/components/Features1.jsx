@@ -26,13 +26,10 @@ export const Features1 = () => {
                 專注技術的夏令營
               </h2>
               <p className="mb-5 text-customGrayText leading-loose">
-              聚集國內最優秀的產學研資源，透過真實操作超級電腦和接觸實際應用，你將學習到平行程式設計和獲得效能分析經驗。課程涵蓋超過 20小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與運用高速運算知識在 AI 的應用能力！
-      
-
+                聚集國內最優秀的產學研資源，透過真實操作超級電腦和接觸實際應用，你將學習到平行程式設計和獲得效能分析經驗。課程涵蓋超過 20小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與運用高速運算知識在 AI 的應用能力！
               </p>
-              <p className="mb-
-               text-customGrayText leading-loose">
-              營隊根據學員的背景和能力安排彈性的學習方式。立即報名參加這個營隊，開啟你在超算領域的學習之旅，並體驗到豐富的學習和成長機會！
+              <p className="mb-5 text-customGrayText leading-loose">
+                營隊根據學員的背景和能力安排彈性的學習方式。立即報名參加這個營隊，開啟你在超算領域的學習之旅，並體驗到豐富的學習和成長機會！
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
@@ -51,11 +48,6 @@ export const Features1 = () => {
                   <CheckArrowIcon />
                   <span>親自實踐：參與黑客松親自著手優化</span>
                 </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>掌握趨勢：邀請業界專家演講與交流</span>
-                </li>
-                
               </ul>
             </div>
           </div>

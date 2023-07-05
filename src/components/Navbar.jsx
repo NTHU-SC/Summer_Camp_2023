@@ -9,7 +9,7 @@ const navbarLinks = [
   { label: "特色師資", href: "#features", ariaLabel: "Features" },
   { label: "課程活動", href: "#course", ariaLabel: "Course" },
   { label: "報名資訊", href: "#pricing", ariaLabel: "Pricing" },
-  { label: "合辦單位", href: "#brands", ariaLabel: "Brands" },
+  { label: "辦理單位", href: "#brands", ariaLabel: "Brands" },
   { label: "常見問題", href: "#FAQ", ariaLabel: "FAQ" },
 ];
 
@@ -64,7 +64,7 @@ export const Navbar = () => {
           <div className="grow basis-0 justify-end hidden lg:flex">
             <a
               className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-6 pt-2 pb-2 text-sm flex"
               href="https://forms.gle/DWqtfWvNPMW4nYrTA"
               target="_blank"
               aria-label="source code"
@@ -110,7 +110,7 @@ export const Navbar = () => {
               ))}
               <a
                 className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-6 pt-2 pb-2 text-sm flex"
                 href="https://github.com/matt765/Tidestream"
                 target="_blank"
               >
