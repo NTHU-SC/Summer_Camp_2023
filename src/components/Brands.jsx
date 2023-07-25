@@ -4,6 +4,7 @@ import SC_logo from "../assets/logos/SC_logo.png"
 import NCHC_logo from "../assets/logos/NCHC_logo.png"
 import NTHU_logo from "../assets/logos/NTHU_logo.png"
 import NVIDIA_logo from "../assets/logos/NVIDIA_logo.png"
+import AiMS_logo from "../assets/logos/AiMS_logo.png"
 
 
 export const Brands = () => (
@@ -78,6 +79,15 @@ export const Brands = () => (
                   <img
                     src={NVIDIA_logo}
                     alt="NVIDIA_logo"
+                    className="rounded-xl  custom-border-gray"
+                  />
+                </a>
+              </div>
+              <div className="flex py-3 justify-center">
+                <a href="https://www.aims.org.tw/" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={AiMS_logo}
+                    alt="AiMS_logo"
                     className="rounded-xl  custom-border-gray"
                   />
                 </a>
