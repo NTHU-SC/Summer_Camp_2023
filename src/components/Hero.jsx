@@ -40,9 +40,9 @@ export const Hero = () => {
               >
                 <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
                   <a
-                    className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://forms.gle/DWqtfWvNPMW4nYrTA/" target="_blank"
+                    className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://scc.nthu.site/Summer_Camp_2024/" target="_blank"
                   >
-                    點我報名
+                    前往今年網站
                   </a>
                 </div>
               </motion.div>

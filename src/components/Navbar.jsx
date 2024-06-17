@@ -65,12 +65,12 @@ export const Navbar = () => {
             <a
               className="text-white custom-border-gray rounded-xl
            bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-6 pt-2 pb-2 text-sm flex"
-              href="https://forms.gle/DWqtfWvNPMW4nYrTA"
+              href="https://www.facebook.com/groups/300519702549029"
               target="_blank"
               aria-label="source code"
             >
 
-              <span className="pt-px">點我報名</span>
+              <span className="pt-px">加入FB社團</span>
             </a>
           </div>
         </motion.div>
