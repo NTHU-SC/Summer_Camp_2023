@@ -169,7 +169,7 @@ export const Pricing = () => {
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}
               >
-                前往今年網站
+                前往 2024 年網站
               </div>
             </div>
           </div>
